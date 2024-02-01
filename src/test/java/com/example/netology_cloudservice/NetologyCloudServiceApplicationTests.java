@@ -1,5 +1,5 @@
 package com.example.netology_cloudservice;
-import lombok.extern.slf4j.Slf4j;
+//import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -11,7 +11,7 @@ import org.testcontainers.junit.jupiter.Testcontainers;
 
 import java.util.Map;
 
-@Slf4j
+//@Slf4j
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @Testcontainers
 class NetologyCloudServiceApplicationTests {
