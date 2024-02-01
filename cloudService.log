@@ -1,0 +1,80 @@
+2024-02-01T13:41:38.672+03:00  INFO 8604 --- [main] c.e.n.NetologyCloudServiceApplication    : Starting NetologyCloudServiceApplication using Java 19.0.1 with PID 8604 (D:\JAVAcode\Netology\Netology_CloudService\target\classes started by Queen in D:\JAVAcode\Netology\Netology_CloudService)
+2024-02-01T13:41:38.679+03:00  INFO 8604 --- [main] c.e.n.NetologyCloudServiceApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-02-01T13:41:39.348+03:00  WARN 8604 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'delegatingApplicationListener' defined in class path resource [com/example/netology_cloudservice/config/Config.class]: Cannot register bean definition [Root bean: class [com.example.netology_cloudservice.config.Config]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=delegatingApplicationListener; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/example/netology_cloudservice/config/Config.class]] for bean 'delegatingApplicationListener' since there is already [Root bean: class [org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=delegatingApplicationListener; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]] bound.
+2024-02-01T13:41:39.364+03:00  INFO 8604 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-02-01T13:41:39.387+03:00 ERROR 8604 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'delegatingApplicationListener', defined in class path resource [com/example/netology_cloudservice/config/Config.class], could not be registered. A bean with that name has already been defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2024-02-01T13:44:33.848+03:00  INFO 7968 --- [main] c.e.n.NetologyCloudServiceApplication    : Starting NetologyCloudServiceApplication using Java 19.0.1 with PID 7968 (D:\JAVAcode\Netology\Netology_CloudService\target\classes started by Queen in D:\JAVAcode\Netology\Netology_CloudService)
+2024-02-01T13:44:33.857+03:00  INFO 7968 --- [main] c.e.n.NetologyCloudServiceApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-02-01T13:44:34.468+03:00  WARN 7968 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'delegatingApplicationListener' defined in class path resource [com/example/netology_cloudservice/config/Config.class]: Cannot register bean definition [Root bean: class [com.example.netology_cloudservice.config.Config]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=delegatingApplicationListener; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/example/netology_cloudservice/config/Config.class]] for bean 'delegatingApplicationListener' since there is already [Root bean: class [org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=delegatingApplicationListener; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]] bound.
+2024-02-01T13:44:34.478+03:00  INFO 7968 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-02-01T13:44:34.494+03:00 ERROR 7968 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'delegatingApplicationListener', defined in class path resource [com/example/netology_cloudservice/config/Config.class], could not be registered. A bean with that name has already been defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2024-02-01T13:54:10.382+03:00  INFO 14192 --- [main] c.e.n.NetologyCloudServiceApplication    : Starting NetologyCloudServiceApplication using Java 19.0.1 with PID 14192 (D:\JAVAcode\Netology\Netology_CloudService\target\classes started by Queen in D:\JAVAcode\Netology\Netology_CloudService)
+2024-02-01T13:54:10.390+03:00  INFO 14192 --- [main] c.e.n.NetologyCloudServiceApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-02-01T13:54:11.237+03:00  WARN 14192 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'delegatingApplicationListener' defined in class path resource [com/example/netology_cloudservice/config/Config.class]: Cannot register bean definition [Root bean: class [com.example.netology_cloudservice.config.Config]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=delegatingApplicationListener; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/example/netology_cloudservice/config/Config.class]] for bean 'delegatingApplicationListener' since there is already [Root bean: class [org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=delegatingApplicationListener; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]] bound.
+2024-02-01T13:54:11.248+03:00  INFO 14192 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-02-01T13:54:11.269+03:00 ERROR 14192 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'delegatingApplicationListener', defined in class path resource [com/example/netology_cloudservice/config/Config.class], could not be registered. A bean with that name has already been defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2024-02-01T14:06:51.770+03:00  INFO 12300 --- [main] c.e.n.NetologyCloudServiceApplication    : Starting NetologyCloudServiceApplication using Java 19.0.1 with PID 12300 (D:\JAVAcode\Netology\Netology_CloudService\target\classes started by Queen in D:\JAVAcode\Netology\Netology_CloudService)
+2024-02-01T14:06:51.778+03:00  INFO 12300 --- [main] c.e.n.NetologyCloudServiceApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-02-01T14:06:52.762+03:00  WARN 12300 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'delegatingApplicationListener' defined in class path resource [com/example/netology_cloudservice/config/Config.class]: Cannot register bean definition [Root bean: class [com.example.netology_cloudservice.config.Config]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=delegatingApplicationListener; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/example/netology_cloudservice/config/Config.class]] for bean 'delegatingApplicationListener' since there is already [Root bean: class [org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=delegatingApplicationListener; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]] bound.
+2024-02-01T14:06:52.773+03:00  INFO 12300 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-02-01T14:06:52.793+03:00 ERROR 12300 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'delegatingApplicationListener', defined in class path resource [com/example/netology_cloudservice/config/Config.class], could not be registered. A bean with that name has already been defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+

@@ -1,0 +1,30 @@
+version: '1'
+
+services:
+
+  server:
+    image: backend_cloud_service
+
+    build: ./
+    ports:
+      - "5050:5050"
+    depends_on:
+      - database
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://localhost:1625/cloud_service
+      SPRING_DATASOURCE_USERNAME: QUEEN
+      SPRING_DATASOURCE_PASSWORD: 2402
+      SPRING_JPA_HIBERNATE_DDL_AUTO: update
+      SPRING_LIQUIBASE_URL: jdbc:postgresql://localhost:1625/cloud_service
+      SPRING_LIQUIBASE_USER: QUEEN
+      SPRING_LIQUIBASE_PASSWORD: 2402
+
+  database:
+    image: postgres_cloud
+
+    ports:
+      - "1625:1625"
+    environment:
+      POSTGRES_DB: cloud_service
+      POSTGRES_USER: QUEEN
+      POSTGRES_PASSWORD: 2402
