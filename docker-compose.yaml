@@ -1,4 +1,4 @@
-version: '1'
+version: '3.7'
 
 services:
 
@@ -10,21 +10,24 @@ services:
       - "5050:5050"
     depends_on:
       - database
+
     environment:
-      SPRING_DATASOURCE_URL: jdbc:postgresql://localhost:5432/cloud_service
+      SPRING_DATASOURCE_URL: jdbc:postgresql://localhost:1625/cloud_service
       SPRING_DATASOURCE_USERNAME: QUEEN
       SPRING_DATASOURCE_PASSWORD: 2402
       SPRING_JPA_HIBERNATE_DDL_AUTO: update
-      SPRING_LIQUIBASE_URL: jdbc:postgresql://localhost:5432/cloud_service
+      SPRING_LIQUIBASE_URL: jdbc:postgresql://localhost:1625/cloud_service
       SPRING_LIQUIBASE_USER: QUEEN
       SPRING_LIQUIBASE_PASSWORD: 2402
 
   database:
-    image: postgres_cloud
+    restart: always
+    image: postgres:15.2
     container_name: 'postgres_cloud'
     ports:
-      - "5432:5432"
+      - "1625:1625"
     environment:
       POSTGRES_DB: cloud_service
       POSTGRES_USER: QUEEN
       POSTGRES_PASSWORD: 2402
+

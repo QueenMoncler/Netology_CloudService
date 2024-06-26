@@ -21,13 +21,13 @@ public class StorageFileController {
     private StorageFileService storageFileService;
 
     @PostMapping("/file")
-    public ResponseEntity<?> uploadFile(@RequestHeader("auth-token") String authToken, @RequestParam("filename") String filename, MultipartFile file) {
+    public ResponseEntity<HttpStatus> uploadFile(@RequestHeader("auth-token") String authToken, @RequestParam("filename") String filename, MultipartFile file) {
         storageFileService.uploadFile(authToken, filename, file);
         return ResponseEntity.ok(HttpStatus.OK);
     }
 
     @DeleteMapping("/file")
-    public ResponseEntity<?> deleteFile(@RequestHeader("auth-token") String authToken, @RequestParam("filename") String filename) {
+    public ResponseEntity<HttpStatus> deleteFile(@RequestHeader("auth-token") String authToken, @RequestParam("filename") String filename) {
         storageFileService.deleteFile(authToken, filename);
         return ResponseEntity.ok(HttpStatus.OK);
     }

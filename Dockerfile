@@ -1,4 +1,4 @@
-FROM khipu/openjdk17-alpine
+FROM openjdk:18-jdk-alpine3.13
 
 EXPOSE 5050
 
