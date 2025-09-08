@@ -8,6 +8,9 @@ public class NetologyCloudServiceApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(NetologyCloudServiceApplication.class, args);
+
+
+
     }
 
 }
